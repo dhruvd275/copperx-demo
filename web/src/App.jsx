@@ -83,13 +83,9 @@ export default function App() {
             <div style={{ marginTop: 18, textAlign: "left", background: "#fafafa", border: "1px solid #eee", borderRadius: 12, padding: 16 }}>
               <h3 style={{ marginTop: 0 }}>Enable “Card → USDC” (Option A)</h3>
               <ol style={{ lineHeight: 1.6 }}>
-                <li>In <strong>Copperx (test)</strong> → Settings → Payments: connect <strong>Stripe (test)</strong> and enable <strong>Cards</strong>.</li>
-                <li>In <strong>Copperx (test)</strong> → Banking/Accounts: create a <strong>Virtual US Bank Account</strong> and turn on <strong>auto-convert USD → USDC</strong>. Ensure a default <strong>USDC withdrawal address</strong> exists per chain.</li>
-                <li>In <strong>Stripe (test)</strong>: set the Copperx virtual USD account as your <strong>payout bank account</strong>.</li>
+                <li>Once the KYC will be done, We can accept fiat payments - DHRUV</li>
               </ol>
-              <p style={{ color: "#6b7280" }}>
-                After these are done, set <code>FIAT_ENABLED = true</code> in <code>App.jsx</code>.
-              </p>
+            
             </div>
           )}
         </>
