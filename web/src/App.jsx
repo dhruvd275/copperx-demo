@@ -77,11 +77,10 @@ export default function App() {
       {!FIAT_ENABLED && (
         <>
           <p style={{ marginTop: 12, color: "#6b7280" }}>
-            Card is a placeholder. Click it to see client setup steps.
           </p>
           {showCardSetup && (
             <div style={{ marginTop: 18, textAlign: "left", background: "#fafafa", border: "1px solid #eee", borderRadius: 12, padding: 16 }}>
-              <h3 style={{ marginTop: 0 }}>Enable “Card → USDC” (Option A)</h3>
+              <h3 style={{ marginTop: 0 }}>Enable “Card → USDC” </h3>
               <ol style={{ lineHeight: 1.6 }}>
                 <li>Once the KYC will be done, We can accept fiat payments - DHRUV</li>
               </ol>
